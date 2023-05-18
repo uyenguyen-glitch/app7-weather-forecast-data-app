@@ -33,3 +33,4 @@ if place:
             st.image(img_paths, width=111)
     except KeyError:
         st.write("Your city is not correct!!!")
+
