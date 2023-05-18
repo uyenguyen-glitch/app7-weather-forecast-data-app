@@ -32,5 +32,5 @@ if place:
             img_paths = [images[condition] for condition in sky_conditions]
             st.image(img_paths, width=111)
     except KeyError:
-        st.write("Your city is not correct!!!")
+        st.write("Your city is not correct!!")
 
